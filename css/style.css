@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-    background-image: url(/img/bg.jpg);
+    background: url('../img/bg.jpg');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -176,7 +176,7 @@ background-color:   #b25408;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-    ont-family: 'Tinos';
+    font-family: 'Tinos';
     font-weight: 400;
     font-size: 26px;
     
@@ -304,14 +304,15 @@ text-align: center;
 
 
   .black_block {
-    background-image: url(/img/bggggg.png);
+    background: url('../img/bgTwo.png');
+    width: 100%;
     padding: 80px 0;
   }
 
 
   .left_title {
     color: #D67E34;
-    ont-family: 'Tinos';
+    font-family: 'Tinos';
     font-weight: 400;
     font-size: 50px;
     margin-bottom: 20px;
